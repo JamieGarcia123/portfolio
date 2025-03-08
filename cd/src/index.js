@@ -8,23 +8,22 @@ import { BrowserRouter, Routes, Route, Router } from "react-router";
 import EducationPage  from "./pages/education/index";
 import HomePage from './pages/home/index';
 import WorkExperience from './pages/work-experience';
-import { createBrowserHistory } from "history";
 
 
 const root = document.getElementById('root');
-const history = createBrowserHistory();
+
 
 ReactDOM.createRoot(root).render(
   <BrowserRouter basename="/portfolio" >
     <Routes>
-      <Router history={history}>
       <Route path="/" element={<App />} >
       <Route path="/" element={<HomePage/>}/>
       <Route  path="/projects" element={<Projects/>}/>
       <Route path="/education" element={<EducationPage/>}/>
       <Route path="/work-experience" element={<WorkExperience/>}/>
-      </Route></Router>
+      </Route>
     </Routes>
+    <App/>
   </BrowserRouter>
 );
 
