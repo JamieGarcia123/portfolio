@@ -8,6 +8,8 @@ import { BrowserRouter, Routes, Route, Router } from "react-router";
 import EducationPage  from "./pages/education/index";
 import HomePage from './pages/home/index';
 import WorkExperience from './pages/work-experience';
+import { createBrowserHistory } from "history";
+
 
 const root = document.getElementById('root');
 const history = createBrowserHistory();
