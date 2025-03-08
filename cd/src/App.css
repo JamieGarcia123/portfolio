@@ -36,7 +36,10 @@ h1 {
   font-size: 2.75rem;
   font-weight: 700;
 }
-
+#projects a{
+  color: #36454f;
+  text-decoration: underline;
+}
 h2 {
   font-family: Noto;
   color: #66fcf1;

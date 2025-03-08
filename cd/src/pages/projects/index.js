@@ -9,10 +9,16 @@ const Projects = () => {
         <meta name="keywords" content="Website developer, React developer, Software Engineer, Front-End Developer, web developer" />
         <meta name="description" content="Jamie's background includes a B.S. in Software Engineering along with other related Certifications." />
       </head>
-      <div id="projectsBackground">
+      <header id="projectsBackground" className="hero">
+            <div className="overlay">
+                <div className='heroContainer'>
+                    <div className='text-center'>
+                        <h1>Projects</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
         <section id="projects" className="container">
-          <h1>Projects
-          </h1>
           <div>
             <h2>Websites</h2>
             <p><a href="https://cubscoutspack233.org/" target="_blank">Cub Scouts Pack 233 static site</a></p>
@@ -48,8 +54,7 @@ const Projects = () => {
             ></iframe>
           </div>
         </section>
-
-      </div></>
+      </>
   );
 }
 
