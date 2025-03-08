@@ -6,14 +6,23 @@ import Logos from "../../components/carousel";
 const WorkExperience = () => {
 
     return (
-            <><header id="workExperienceBackground" className="hero">
-            <div className='heroContainer'>
-                <div className='text-center'>
-                    <h1>Work experience</h1>
+            <>
+            <head>
+        <title>Jamie Garcia | Work Experience</title>
+        <meta name="keywords" content="Website developer, React developer, Software Engineer, Front-End Developer, web developer"/>
+        <meta name="description" content="Jamie's educational background includes a B.S. in Software Engineering along with other related Certifications."/ >
+      </head>
+        <header id="workExperienceBackground" className="hero">
+            <div className="overlay">
+                <div className='heroContainer'>
+                    <div className='text-center'>
+                        <h1>Work experience</h1>
+                    </div>
                 </div>
             </div>
         </header>
-        <div><Logos title={"Skills"} /></div>
+        <div>
+            <Logos title={"Skills"} /></div>
             <section id="workExperience" className="container">
                 <div className="col2">
                     {joblist.map((job) => <div>

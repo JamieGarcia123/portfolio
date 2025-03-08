@@ -20,9 +20,17 @@ const EducationPage = () => {
         <meta name="keywords" content="Website developer, React developer, Software Engineer, Front-End Developer, web developer"/>
         <meta name="description" content="Jamie's educational background includes a B.S. in Software Engineering along with other related Certifications."/ >
       </head>
-      <div id="educationBackground">
+      <header id="educationBackground" className="hero">
+          <div className="overlay">  
+            <div className='heroContainer'>
+                <div className='text-center'>
+                    <h1>Education</h1>
+                </div>
+            </div>
+          </div>
+        </header>
+
           <section id="education" className="certContainer">
-            <h1>Education</h1>
             <div className="certContent">
               {educationalItems.map(item => (
                 <>
@@ -63,7 +71,7 @@ const EducationPage = () => {
             </>)
           )}
         </section>
-      </div></>
+      </>
   );
 }
 

@@ -23,6 +23,12 @@ main {
   min-height: 100vh;
 
 }
+.overlay{
+  z-index: 1;
+  background-color: #ffffff60;
+  height: inherit;
+  width: inherit;
+}
 
 h1 {
   font-family: Noto;
