@@ -33,7 +33,7 @@ const responsive = {
 const Logos = ({title}) => {
   return (
     <div className="carouselWrapper">
-      {title ? <h3>{title}</h3> : null}
+      {title ? <h3 className="title">{title}</h3> : null}
     <Carousel showdots={true} responsive={responsive}  centerMode={true} infinite={true}>
       <img src={htmllogo} width={200} height={200} />
       <img src={jslogo} width={200} height={200} />
