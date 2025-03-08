@@ -35,7 +35,7 @@
 .certCard-inner {
     position: relative;
     cursor: pointer;
-    background: linear-gradient(#ffffff, #ffffff10);
+    background: linear-gradient(#ffffff, #ffffff20);
     width: 100%;
     height: 100%;
     transition: transform 0.5s;
@@ -48,15 +48,25 @@
     background-color: transparent;
 }
 .certCard-front{
-    padding: 25px;
+    padding: 0px 25px;
 }
 
 .certCard-front div{
-    height: 80%;
+    height: 100%;
     width: 85%;
-    padding: 15px;
-    border-left: 1px solid rgb(6, 231, 247);
-    border-top: 1px solid rgb(6, 231, 247);
+    padding: 0px 15px;
+}
+
+.brdrlft{
+    border-left: 1px solid red;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+}
+
+.h3title{
+    margin-bottom: 0px;
+    margin-top: 40px;
 }
 
  .certCard-front, .certCard-back {
@@ -67,7 +77,18 @@
      backface-visibility: hidden; 
  }
   
-   
+.brdrbtm{
+    border-bottom: 1px solid blue;
+    width: 110%;
+    margin-left: -40px;
+
+}
+.brdrbtm-height {    
+    height: 15px;
+}
+.brdrbtm span{
+    padding-left: 15px;
+}
 
 .certCard-back {
     transform: rotateY(180deg);
