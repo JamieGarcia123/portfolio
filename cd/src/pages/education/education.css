@@ -1,0 +1,99 @@
+#educationBackground {
+    background-image: url('../../assests/images/cooltechbg.webp');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+#education {
+    padding: 50px 50px 150px;
+    display: flex;
+    align-items: center;
+    background-color: #f0ffff90;
+    z-index: 1;
+}
+
+
+.certContainer{
+ max-width: 1440px;
+ width: 100%;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.certCard{
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    margin: auto; 
+    padding: 10px 0px;
+    perspective: 1000px;
+
+}
+.certCard-inner {
+    position: relative;
+    cursor: pointer;
+    background: linear-gradient(#ffffff, #ffffff10);
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+
+}
+
+.certCard:hover .certCard-inner{
+    transform: rotateY(180deg);
+    background-color: transparent;
+}
+.certCard-front{
+    padding: 25px;
+}
+
+.certCard-front div{
+    height: 80%;
+    width: 85%;
+    padding: 15px;
+    border-left: 1px solid rgb(6, 231, 247);
+    border-top: 1px solid rgb(6, 231, 247);
+}
+
+ .certCard-front, .certCard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+     backface-visibility: hidden; 
+ }
+  
+   
+
+.certCard-back {
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+}
+
+#aws {
+    background-image: url('../../assests/images/AWScloudpractitioner.webp');
+    height: 300px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+#projectPlus {
+    background-image: url('../../assests/images/project+.webp');
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#itilFour{
+    background-image: url('../../assests/images/itil4.webp');
+    height: 300px;    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

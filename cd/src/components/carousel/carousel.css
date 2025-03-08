@@ -1,0 +1,7 @@
+@import 'react-multi-carousel/lib/styles.css';
+
+
+.carouselWrapper{
+    background: #00000050;
+    padding: 20px;
+}

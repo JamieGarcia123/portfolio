@@ -1,0 +1,26 @@
+#projectsBackground{
+    background-image: url('../../assests/images/codeprojects.webp');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+#projects{
+    padding: 50px 50px 150px;
+    align-items: center;
+    background-color: #f0ffff80;
+    z-index: 1;
+    display: block;
+}
+ #projects h1 {
+    text-align: center;
+ }
+
+
+
+.iFrameSandbox{
+    width:100%; 
+    height: 500px; 
+    border: 0; 
+    border-radius: 6px; 
+    overflow:hidden;
+}

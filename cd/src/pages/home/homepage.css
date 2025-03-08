@@ -1,0 +1,37 @@
+.homeHero{
+ background-image: url("../../assests/images/cooltechbg.webp");
+ width: 100%;
+ height: 650px;
+ background-size: contain;
+}
+.homeHeroContainer{
+    max-width: 1440px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+.col2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.col2 img{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    min-width: 250px;
+    border-radius: 75%;
+
+}
+#home {
+    color: azure;
+}
+.container{
+    
+}
+.innerContent{
+
+}

@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'react-multi-carousel/lib/styles.css';
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+@font-face {
+  font-family: slabo;
+  src: url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
   }
-}
+  @font-face {
+    font-family: Noto;
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap')
+   
+  }
 
-.App-header {
-  background-color: #282c34;
+body {
+  background-color: #9c999a50;
+  font-family: slabo;
+  letter-spacing: .075rem;
+}
+main {
   min-height: 100vh;
+
+}
+
+h1 {
+  font-family: Noto;
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: Noto;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3, h4, h5, h6 {
+  font-family: Noto;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+p {
+  color: #36454f;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 80%;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
