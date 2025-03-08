@@ -35,14 +35,14 @@ const Logos = ({title}) => {
     <div className="carouselWrapper">
       {title ? <h3 className="title">{title}</h3> : null}
     <Carousel showdots={true} responsive={responsive}  centerMode={true} infinite={true}>
-      <img src={htmllogo} width={200} height={200} />
-      <img src={jslogo} width={200} height={200} />
-      <img src={reactlogo} width={200} height={200} />
-      <img src={pythonlogo} width={200} height={200} />
-      <img src={nextjslogo} width={200} height={200} />
-      <img src={wclogo} width={200} height={200} />
-      <img src={wplogo} width={200} height={200} />
-      <img src={m365logo} width={200} height={200}/>  
+      <img src={htmllogo} width={100} height={100} />
+      <img src={jslogo} width={100} height={100} />
+      <img src={reactlogo} width={100} height={100} />
+      <img src={pythonlogo} width={100} height={100} />
+      <img src={nextjslogo} width={100} height={100} />
+      <img src={wclogo} width={100} height={100} />
+      <img src={wplogo} width={100} height={100} />
+      <img src={m365logo} width={100} height={100}/>  
     </Carousel>
 </div>
   )

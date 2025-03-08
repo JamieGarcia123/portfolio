@@ -4,8 +4,8 @@ import avatar from "../../assests/images/headshot.jpg"
 const HomePage = () => {
     return(
         <>
-            <header className="homeHero">
-                <div className='homeHeroContainer'>
+            <header id="homeHero" className="hero">
+                <div className='heroContainer'>
                     <div className='col2'>
                         <img width={250} height={250} src={avatar} alt='Headshot of Software Engineer Jamie Garcia.'/>
                     </div>
