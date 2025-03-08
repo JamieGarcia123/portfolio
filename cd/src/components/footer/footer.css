@@ -2,8 +2,8 @@
     width: 100vw;
     height: 250px;
     display: flex;
-    color: #ffffff;
-    background-color: #3C414240;
+    color: azure;
+    background-color: #45A29e;
   }
   
   .footer-content{
@@ -12,3 +12,17 @@
     padding: 20px;
     margin: auto;
   }
+
+.list-none{
+  list-style: none;
+}
+.list-none li{
+  margin: 15px 0px;
+  padding: 0px;
+}
+
+a{
+  color: azure;
+  text-decoration: none;
+  text-transform: uppercase;
+}

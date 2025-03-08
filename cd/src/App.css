@@ -15,8 +15,8 @@
   }
 
 body {
-  background-color: #9c999a50;
-  font-family: slabo;
+  background-color: #1f283310;
+   font-family: slabo;
   letter-spacing: .075rem;
 }
 main {
@@ -26,12 +26,15 @@ main {
 
 h1 {
   font-family: Noto;
+  color: #66fcf1;
   font-size: 2.75rem;
   font-weight: 700;
 }
 
 h2 {
   font-family: Noto;
+  color: #66fcf1;
+
   font-size: 2rem;
   font-weight: 600;
 }
@@ -39,6 +42,7 @@ h2 {
 h3, h4, h5, h6 {
   font-family: Noto;
   font-size: 1.5rem;
+  color: #36454f;
   font-weight: normal;
 }
 
@@ -52,7 +56,11 @@ p {
   margin: auto;
   display: flex;
   width: 80%;
+
 }
 
+.text-center{
+  text-align: center;
+}
 
 

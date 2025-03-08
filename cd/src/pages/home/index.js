@@ -1,5 +1,5 @@
 import './homepage.css'
-import avatar from "../../assests/images/placeholder.jpg"
+import avatar from "../../assests/images/headshot.jpg"
 
 const HomePage = () => {
     return(
@@ -7,18 +7,20 @@ const HomePage = () => {
             <header className="homeHero">
                 <div className='homeHeroContainer'>
                     <div className='col2'>
-                        <img width={450} height={450} src={avatar} alt='Headshot of Software Engineer Jamie Garcia.'/>
+                        <img width={250} height={250} src={avatar} alt='Headshot of Software Engineer Jamie Garcia.'/>
                     </div>
-                    <div className='col2'>
-                        <h1 id="home">Jamie Garcia</h1>
-                        <h2>Software Developer</h2>
+                    <div id="home" className='col2 text-center'>
+                        <h1>Jamie Garcia</h1>
+                        <h2 >Software Developer</h2>
                     </div>
                 </div>
 
             </header>
             <section className="container">
-                <div className="innerContent">
-
+                <div className="innerContent text-center">
+                    <div className='col2'>
+                        <p>A motivated Web Developer with 5 years of experience in JavaScript frameworks (Vue.js, React.js, TypeScript) and web development. Skilled in WordPress (Elementor, Avada), HTML, CSS/SASS, and REST APIs. Familiar with Python, C#, SQL, and Agile project management. Currently pursuing a Bachelor’s in Computer Science at WGU.</p>
+                    </div>
                 </div>
 
             </section>
