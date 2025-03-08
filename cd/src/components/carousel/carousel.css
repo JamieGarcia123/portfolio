@@ -2,7 +2,6 @@
 
 
 .carouselWrapper{
-    background: #00000050;
     padding: 20px;
 }
 
@@ -10,6 +9,5 @@
     text-align: center;
     color: #000000;
     text-transform: uppercase;
-    background-color: #efefef50;
     padding: 25px 0px;
 }

@@ -1,18 +1,4 @@
-.homeHero{
- background-image: url("../../assests/images/cooltechbg.webp");
- width: 100%;
- height: 450px;
- background-size: cover;
-}
-.homeHeroContainer{
-    max-width: 1440px;
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    align-items: center;
-}
+
 .innerContent{
     padding: 50px 0px;
 }
