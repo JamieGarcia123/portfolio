@@ -23,7 +23,6 @@ ReactDOM.createRoot(root).render(
       <Route path="/work-experience" element={<WorkExperience/>}/>
       </Route>
     </Routes>
-    <App/>
   </BrowserRouter>
 );
 
