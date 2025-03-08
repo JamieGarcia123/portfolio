@@ -11,7 +11,7 @@ import WorkExperience from './pages/work-experience';
 
 const root = document.getElementById('root');
 ReactDOM.createRoot(root).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/portfolio">
     <Routes>
       <Route path="/" element={<App />} >
       <Route path="/" element={<HomePage/>}/>
