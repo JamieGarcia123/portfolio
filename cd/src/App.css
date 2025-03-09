@@ -29,6 +29,31 @@ main {
   width: inherit;
 }
 
+
+#projects a{
+  color: #36454f;
+  text-decoration: underline;
+}
+/* COLUMNS */
+/* 1 column layout */
+.col1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* 2 even column layout */
+.col2{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 680px) {
+  .col2 {
+    width: 100% !important;
+  } 
+}
+
+/* global headings */
 h1 {
   font-family: Noto;
   color: #66fcf1;
@@ -39,20 +64,6 @@ h1 {
   h1{
     margin-top: 0px;
   }
-}
-#projects a{
-  color: #36454f;
-  text-decoration: underline;
-}
-.col2{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-}
-@media screen and (max-width: 680px) {
-  .col2 {
-    width: 100% !important;
-  } 
 }
 h2 {
   font-family: Noto;
@@ -72,23 +83,32 @@ p {
   color: #36454f;
   font-weight: 700;
 }
-
+/* global containers */
 .container {
   max-width: 1440px;
   margin: auto;
   display: flex;
   width: 80%;
-
 }
-
+/* shorthands */
+.center-items{
+  align-items: center;
+  display: grid;
+}
 .text-center{
   text-align: center;
+}
+.padding-25{
+ padding: 25px;
+}
+.no-margin{
+  margin: 0px;
 }
 
 /* global heros  */
 .hero{
   width: 100%;
-  height: 450px;
+  height: 400px;
  }
  @media screen and (max-width: 680px) {
    .hero {

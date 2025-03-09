@@ -1,23 +1,9 @@
 
-.innerContent{
-    padding: 50px 0px;
-}
-
-.col2 img{
-    height: 250px;
-    width: 250px;
-    margin: auto;
-    border-radius: 75%;
-}
-@media screen and (max-width: 680px) {
-    .col2 img{
-        height: 150px;
-        width: 150px;
-        margin-top: 15px;
-    }
-}
 #home {
     color: azure;
 }
 
+#homeContent{
+    padding: 80px 0px;
+}
 

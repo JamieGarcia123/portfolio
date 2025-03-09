@@ -1,25 +1,33 @@
 
-
+import { Helmet } from "react-helmet";
+import Carousel from "react-multi-carousel"
 import{ certifications } from "../../api/certification"
 import { educationalItems } from "../../api/education"
 import React, { useState, useEffect, useRef } from 'react';
-
 import "./education.css"
-import Carousel from "../../components/carousel";
 
+const responsive = {
 
-// Certification carousel
+  desktop: {
+    breakpoint: { max: 4000, min: 680 },
+    items: 1
+  },
+  mobile: {
+    breakpoint: { max: 680, min: 0 },
+    items: 1
+  }
+};
 
 
 const EducationPage = () => {
 
   return (
       <>
-      <head>
+     <Helmet>
         <title>Jamie Garcia | Education</title>
         <meta name="keywords" content="Website developer, React developer, Software Engineer, Front-End Developer, web developer"/>
         <meta name="description" content="Jamie's educational background includes a B.S. in Software Engineering along with other related Certifications."/ >
-      </head>
+      </Helmet>
       <header id="educationBackground" className="hero">
           <div className="overlay">  
             <div className='heroContainer'>
@@ -34,24 +42,21 @@ const EducationPage = () => {
             <div className="col2">
             <div className="certContent ">
               {educationalItems.map(item => (
-                <>
-                  <div className="certContent">
+                  <div key={item.id} className="certContent">
                     <h3><strong>{item.school}</strong></h3>
                     <p>{item.dates}</p>
                     <p>{item.degree}</p>
                   </div>
-                </>)
+                )
               )}
             </div>
             </div>
           <div className="col2 text-center">
           <h2>Certifications</h2>
-       
+           <Carousel responsive={responsive} >
           {certifications.map(cert => (
-            <>
-              <div className="certCard">
+              <div key={cert.id} className="certCard">
                 <div className="certCard-inner">
-
                   <div className="certCard-front brdrlft">
                     <div>
                       <h3 className="brdrbtm h3title"><span>{cert.name}</span></h3>
@@ -62,16 +67,16 @@ const EducationPage = () => {
                       <p className="brdrbtm brdrbtm-height"></p>
                       <p className="brdrbtm brdrbtm-height"></p>
                       <p className="brdrbtm brdrbtm-height"></p>
-
                     </div>
                   </div>
                   <div className="certCard-back"><div id={cert.id}></div>
                   </div>
-
                 </div>
               </div>
-            </>)
-          )}</div>
+            )
+          )}
+          </Carousel>
+          </div>
         </section>
       </>
   );
