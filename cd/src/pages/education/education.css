@@ -9,8 +9,19 @@
     padding: 50px 50px 150px;
     display: flex;
     align-items: center;
-    background-color: #f0ffff90;
     z-index: 1;
+    align-items: start;
+}
+@media screen and (max-width: 680px) {
+    #education {
+        display: block;
+        padding: 0px 0px 50px;
+
+    }
+    .certCard {
+        width: 300px;
+    }
+    
 }
 
 
@@ -19,7 +30,7 @@
  width: 100%;
  margin: auto;
  display: flex;
- flex-direction: column;
+ flex-direction: row;
  justify-content: center;
 }
 
@@ -28,9 +39,14 @@
     width: 400px;
     height: 300px;
     margin: auto; 
+    text-align: left;
     padding: 10px 0px;
     perspective: 1000px;
-
+}
+@media screen and (max-width: 680px) {
+    .certCard {
+        width: 300px;
+    }  
 }
 .certCard-inner {
     position: relative;
@@ -49,6 +65,12 @@
 }
 .certCard-front{
     padding: 0px 25px;
+}
+@media screen and (max-width: 680px) {
+    .certCard-front{
+        padding: 0px;
+    }
+    
 }
 
 .certCard-front div{
@@ -71,7 +93,7 @@
 
  .certCard-front, .certCard-back {
     position: absolute;
-    width: 100%;
+    width: 107.5%;
     height: 100%;
     -webkit-backface-visibility: hidden; 
      backface-visibility: hidden; 
@@ -80,14 +102,24 @@
 .brdrbtm{
     border-bottom: 1px solid blue;
     width: 110%;
-    margin-left: -40px;
+    margin-left: -68px;
 
+}
+@media screen and (max-width: 680px) {
+    .brdrbtm{
+        width: 118%;
+    } 
 }
 .brdrbtm-height {    
     height: 15px;
 }
 .brdrbtm span{
-    padding-left: 15px;
+    padding-left: 35px;
+}
+@media screen and (max-width: 680px) {
+    .brdrbtm span{
+        padding-left: 35px;
+    }
 }
 
 .certCard-back {

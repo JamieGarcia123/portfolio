@@ -8,10 +8,9 @@
   font-family: slabo;
   src: url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
   }
-  @font-face {
+@font-face {
     font-family: Noto;
     src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap')
-   
   }
 
 body {
@@ -29,6 +28,11 @@ main {
   height: inherit;
   width: inherit;
 }
+@media screen and (max-width: 680px) {
+  .overlay{
+  background-color: #00000090;
+  }
+}
 
 h1 {
   font-family: Noto;
@@ -36,14 +40,28 @@ h1 {
   font-size: 2.75rem;
   font-weight: 700;
 }
+@media screen and (max-width: 680px) {
+  h1{
+    margin-top: 0px;
+  }
+}
 #projects a{
   color: #36454f;
   text-decoration: underline;
 }
+.col2{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 680px) {
+  .col2 {
+    width: 100% !important;
+  } 
+}
 h2 {
   font-family: Noto;
   color: #66fcf1;
-
   font-size: 2rem;
   font-weight: 600;
 }
@@ -77,18 +95,28 @@ p {
   width: 100%;
   height: 450px;
  }
- .heroContainer{
-     max-width: 1440px;
-     width: 80%;
-     margin: auto;
-     display: flex;
-     flex-direction: row;
-     height: 100%;
-     align-items: center;
+ @media screen and (max-width: 680px) {
+   .hero {
+    height: 350px;
+   }
  }
+
+ .heroContainer{
+  max-width: 1440px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+ }
+ @media screen and (max-width: 680px) {
+  .heroContainer{
+    display: block;
+  }
+}
 
  #homeHero{
   background-image: url("./assests/images/cooltechbg.webp");
   background-size: cover;
  }
-

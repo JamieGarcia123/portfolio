@@ -31,7 +31,8 @@ const EducationPage = () => {
         </header>
 
           <section id="education" className="certContainer">
-            <div className="certContent">
+            <div className="col2">
+            <div className="certContent ">
               {educationalItems.map(item => (
                 <>
                   <div className="certContent">
@@ -42,7 +43,8 @@ const EducationPage = () => {
                 </>)
               )}
             </div>
-
+            </div>
+          <div className="col2 text-center">
           <h2>Certifications</h2>
        
           {certifications.map(cert => (
@@ -69,7 +71,7 @@ const EducationPage = () => {
                 </div>
               </div>
             </>)
-          )}
+          )}</div>
         </section>
       </>
   );

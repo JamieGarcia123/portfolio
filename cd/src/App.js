@@ -7,11 +7,11 @@ import { Outlet } from 'react-router';
 
 const App = () => {
   return (
-    <div className="App">
-      <Header />  
-      <Outlet/>  
-      <Footer/>
-    </div> 
+    <><meta name="viewport" content="width=device-width, initial-scale=1"></meta><div className="App">
+      <Header />
+      <Outlet />
+      <Footer />
+    </div></> 
   );
 }
 

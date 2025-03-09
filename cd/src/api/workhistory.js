@@ -1,5 +1,6 @@
 export const joblist = [
 {
+    id: "1",
     company: "Impact Group Marketing",
     start: "March 2024",
     end: "",
@@ -7,6 +8,7 @@ export const joblist = [
     description: "",
 },
 {
+    id: "2",
     company: "Codesulting, LLC.",
     start: "April 2019",
     end: "January 2024",

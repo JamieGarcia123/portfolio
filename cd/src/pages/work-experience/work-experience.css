@@ -12,12 +12,22 @@
     align-items: center;
     z-index: 1;
 }
-
+@media screen and (max-width: 680px) {
+    #workExperience{
+        display: block;
+    }
+}
 .resumeCard {
     background-color: transparent;
     width: 550px;
     height: 625px;
     perspective: 1500px;
+}
+@media screen and (max-width: 680px) {
+   .resumeCard{
+    width: 370px;
+    height: 400px;
+   }
 }
 .resumeCard-inner {
     cursor: pointer;

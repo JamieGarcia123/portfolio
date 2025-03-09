@@ -25,7 +25,8 @@ const WorkExperience = () => {
             <Logos title={"Skills"} /></div>
             <section id="workExperience" className="container">
                 <div className="col2">
-                    {joblist.map((job) => <div>
+                    {joblist.map((job) => 
+                    <div key={job.id}>
                         <h2>{job.company}</h2>
                         <h3>Position: {job.title}</h3>
                         <p>Start Date: {job.start}</p>
