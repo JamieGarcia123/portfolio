@@ -1,18 +1,18 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'react-multi-carousel/lib/styles.css';
 
 
 @font-face {
   font-family: slabo;
-  src: url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
-  }
-@font-face {
-    font-family: Noto;
-    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap')
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/slabo13px/v15/11hEGp_azEvXZUdSBzzRQK6h2jkY.woff2) format('woff2');
   }
 
+  @font-face {
+    font-family: Noto;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/notosansdisplay/v26/RLpbK4fy6r6tOBEJg0IAKzqdFZVZxpMkXJMhnB9XjO1o90LuV-PT4Doq_AKp_3cKZTua2xHr.woff2) format('woff2');
+  }
 body {
   background-color: #1f283310;
    font-family: slabo;
@@ -24,14 +24,9 @@ main {
 }
 .overlay{
   z-index: 1;
-  background-color: #ffffff60;
+  background-color: #00000090;
   height: inherit;
   width: inherit;
-}
-@media screen and (max-width: 680px) {
-  .overlay{
-  background-color: #00000090;
-  }
 }
 
 h1 {
