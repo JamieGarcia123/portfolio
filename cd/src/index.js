@@ -12,8 +12,7 @@ import {Helmet} from "react-helmet";
 
 
 const root = document.getElementById('root');
-ReactDOMServer.renderToString(<Handler />);
-const helmet = Helmet.renderStatic();
+
 
 ReactDOM.createRoot(root).render(
   <HashRouter  >
