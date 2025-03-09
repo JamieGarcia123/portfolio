@@ -8,10 +8,12 @@ import { BrowserRouter, Routes, Route, Router, HashRouter } from "react-router";
 import EducationPage  from "./pages/education/index";
 import HomePage from './pages/home/index';
 import WorkExperience from './pages/work-experience';
+import {Helmet} from "react-helmet";
 
 
 const root = document.getElementById('root');
-
+ReactDOMServer.renderToString(<Handler />);
+const helmet = Helmet.renderStatic();
 
 ReactDOM.createRoot(root).render(
   <HashRouter  >

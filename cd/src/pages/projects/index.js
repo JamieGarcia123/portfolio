@@ -1,14 +1,15 @@
 
+import { Helmet } from "react-helmet";
 import "./projects.css"
 
 const Projects = () => {
   return (
       <>
-      <head>
+      <Helmet>
         <title>Jamie Garcia | Projects</title>
-        <meta name="keywords" content="Website developer, React developer, Software Engineer, Front-End Developer, web developer" />
+        <meta name="keywords" content="Website developer, React developer, Software Engineer, Front-End Developer, web developer, wordpress developer" />
         <meta name="description" content="Jamie's background includes a B.S. in Software Engineering along with other related Certifications." />
-      </head>
+      </Helmet>
       <header id="projectsBackground" className="hero">
             <div className="overlay">
                 <div className='heroContainer'>
