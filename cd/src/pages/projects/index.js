@@ -27,7 +27,7 @@ const Projects = () => {
               <ul>Skills portrayed in project:
                 <li>HTML</li>
                 <li>SEO</li>
-                <li>CSS</li>
+                <li>CSS and Mobile Responsiveness</li>
                 <li>Github Studio hosting</li>
                 <li>Cloudflare SSL</li>
                 <li>Instagram embed</li>
@@ -42,15 +42,12 @@ const Projects = () => {
                 <li>Typescript</li>
                 <li>React Hooks</li>
                 <li>HTML</li>
-                <li>Cloudflare SSL</li>
-                <li>Instagram embed</li>
-                <li>External and internal links</li>
               </ul>
           
             <iframe src="https://codesandbox.io/embed/zrvxdp?view=editor+%2B+preview&hidenavigation=1"
               className="iFrameSandbox"
               title="zen-sky-zrvxdp"
-              allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+              allow="accelerometer; encrypted-media; hid;"
               sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
             ></iframe>
           </div>

@@ -40,16 +40,16 @@ const EducationPage = () => {
 
           <section id="education" className="certContainer">
             <div className="col2">
-            <div className="certContent ">
-              {educationalItems.map(item => (
-                  <div key={item.id} className="certContent">
-                    <h3><strong>{item.school}</strong></h3>
-                    <p>{item.dates}</p>
-                    <p>{item.degree}</p>
-                  </div>
-                )
-              )}
-            </div>
+              <div className="certContent padding-25 ">
+                {educationalItems.map(item => (
+                    <div key={item.id} className="certContent">
+                      <h3><strong>{item.school}</strong></h3>
+                      <p>{item.dates}</p>
+                      <p>{item.degree}</p>
+                    </div>
+                  )
+                )}
+              </div>
             </div>
           <div className="col2 text-center">
           <h2>Certifications</h2>

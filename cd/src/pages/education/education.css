@@ -83,8 +83,9 @@
     border-left: 1px solid red;
     position: absolute;
     top: 0px;
-    left: 25px;
+    left: 45px;
 }
+
 
 .h3title{
     margin-bottom: 0px;
@@ -98,27 +99,35 @@
     -webkit-backface-visibility: hidden; 
      backface-visibility: hidden; 
  }
+ @media screen and (max-width: 680px) {
+    .certCard-front{
+        height: 104%;
+    }
+    
+ }
   
 .brdrbtm{
     border-bottom: 1px solid blue;
     width: 110%;
-    margin-left: -68px;
+    margin-left: -87px;
 
 }
 @media screen and (max-width: 680px) {
     .brdrbtm{
-        width: 118%;
+        width: 110%;
+        margin-left: -61px;
     } 
 }
 .brdrbtm-height {    
-    height: 15px;
+    height: 17px;
 }
 .brdrbtm span{
-    padding-left: 35px;
+    padding-left: 50px;
 }
 @media screen and (max-width: 680px) {
     .brdrbtm span{
-        padding-left: 35px;
+        padding-left: 52px;
+        display: inline-block;
     }
 }
 
@@ -134,13 +143,23 @@
     width: 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
 }
+@media screen and (max-width: 680px) {
+    #projectPlus{
+        height: 275px;
+    }
+}
+
 #projectPlus {
     background-image: url('../../assests/images/project+.webp');
     height: 300px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+@media screen and (max-width: 680px) {
+    #aws{
+        height: 275px;
+    }
 }
 
 #itilFour{
@@ -149,4 +168,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+@media screen and (max-width: 680px) {
+    #itilFour{
+        height: 275px;
+    }
 }
