@@ -47,6 +47,16 @@ main {
   display: flex;
   flex-direction: column;
 }
+.col3{
+  width: 33.7%;
+  display: flex;
+  flex-direction: column;
+}
+.col2-3{
+  width: 66.3%;
+  display: flex;
+  flex-direction: column;
+}
 @media screen and (max-width: 680px) {
   .col2 {
     width: 100% !important;
@@ -111,7 +121,15 @@ p {
 .no-margin{
   margin: 0px;
 }
+.m-auto{
+  margin: auto;
+}
 
+.row{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+}
 /* global heros  */
 .hero{
   width: 100%;
