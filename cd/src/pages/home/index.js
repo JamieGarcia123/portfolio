@@ -1,6 +1,6 @@
 import './homepage.css'
-import avatar from "../../assests/images/headshot.jpg"
 import Logos from "../../components/carousel";
+import codePic from "../../assests/images/certcardcode.webp"
 import { Helmet } from 'react-helmet';
 
 
@@ -33,11 +33,15 @@ const HomePage = () => {
                 </div>
             </header>
             <section id="homeContent" className="container">
-                <div className='col2 center-items text-center padding-25'>
+                <div className='col3 center-items text-center padding-25'>
                     <h3 className='no-margin'>Welcome!</h3>
-                    <p>A motivated Web Developer with 5 years of experience in JavaScript frameworks (Vue.js, React.js, TypeScript) and web development. Skilled in WordPress (Elementor, Avada), HTML, CSS/SASS, and REST APIs. Familiar with Python, C#, SQL, and Agile project management. Currently pursuing a Bachelor’s in Computer Science at WGU.</p>
+                    <p>A motivated Web Developer with 5 years of experience in JavaScript frameworks such Vue.js with Nuxt, React with and without NextJs. Familiar with TypeScript, Redux and Angular.</p>
+                    <p>Also experienced in C# and .Net Object Oriented projects. Skilled in WordPress (Elementor, Avada, WooCommerce), HTML, CSS, SCSS, TailWinds CSS, Bootstrap, and REST APIs. Strong background in mobile responsivenss. Familiar with Python, C#, SQL, and Agile project management.</p>
+                    <p> Have worked with workflows in Jira, Monday and Microsoft Teamworks. Am efficient in Remote settings.</p>                        
+                    <p>Currently pursuing a Bachelor’s in Computer Science at WGU.</p>
                 </div>
-                <div className='col2'>
+                <div className='col2-3 text-center'>
+                    <img style={{objectFit: "contain"}} className='m-auto' src={codePic} height={300} width={800}/>
                     <Logos responsive={responsive} centered={true} title="Skills"/>
                 </div>
             </section>
