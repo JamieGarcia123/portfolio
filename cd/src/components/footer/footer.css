@@ -1,6 +1,6 @@
 .footer-container{
     width: 100vw;
-    height: 250px;
+    height: 100px;
     display: flex;
     color: azure;
     background-color: #45A29e;
@@ -12,6 +12,7 @@
     padding: 20px;
     margin: auto;
   }
+ 
 
 .list-none{
   list-style: none;

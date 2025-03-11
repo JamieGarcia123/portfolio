@@ -6,13 +6,9 @@ export default function Footer() {
   
       <div className="footer-container">
           <div className="footer-content">
-              <div className="col1">
-                <h3>Quick Links</h3>
-                    <ul className="list-none">
-                        {/* <li><a href="" target="_blank">LinkedIn</a></li>
-                        <li><a href="" target="_blank">GitHub</a></li>
-                        <li><a href="" target="_blank">Contact Me</a></li> */}
-                    </ul>
+              <div className="row">
+                    <a href="https://www.linkedin.com/in/jamiegarcia123456789/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/JamieGarcia123" target="_blank">GitHub</a>
               </div>
           </div>
       </div>
