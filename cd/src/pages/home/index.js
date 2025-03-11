@@ -41,7 +41,7 @@ const HomePage = () => {
                     <p>Currently pursuing a Bachelor’s in Computer Science at WGU.</p>
                 </div>
                 <div className='col2-3 text-center'>
-                    <img style={{objectFit: "contain"}} className='m-auto' src={codePic} height={300} width={800}/>
+                    <img className='m-auto' src={codePic} height={300} width={800}/>
                     <Logos responsive={responsive} centered={true} title="Skills"/>
                 </div>
             </section>

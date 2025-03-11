@@ -15,7 +15,11 @@
     display: flex;
     justify-content: space-around;
   }
-  
+  @media screen and (max-width: 680px){
+        .header-container{
+          font-size: small;
+        }
+  }
   .header-content a {
     color: #ffffff;
     text-decoration: none;

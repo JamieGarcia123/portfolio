@@ -52,10 +52,32 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 680px) {
+  .col3{
+    width: 100%;
+  }
+}
+.col2-3 img{
+  width: 700px;
+  height: 500px;
+  object-fit: contain;
+}
+@media screen and (max-width: 680px) {
+  .col2-3 img{
+    height: fit-content;
+    width: 375px;
+  }
+}
 .col2-3{
   width: 66.3%;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 680px) {
+  .col2-3{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 680px) {
   .col2 {
@@ -99,6 +121,7 @@ p {
   color: #36454f;
   font-weight: 700;
   font-size: medium;
+  margin: 25px;
 }
 /* global containers */
 .container {
@@ -106,6 +129,11 @@ p {
   margin: auto;
   display: flex;
   width: 80%;
+}
+@media screen and (max-width: 680px) {
+  .container{
+    display: inline;
+  }
 }
 /* shorthands */
 .center-items{
@@ -115,9 +143,8 @@ p {
 .text-center{
   text-align: center;
 }
-.padding-25{
- padding: 25px;
-}
+
+
 .no-margin{
   margin: 0px;
 }
@@ -129,6 +156,11 @@ p {
   flex-direction: row;
   display: flex;
   justify-content: space-evenly;
+}
+@media screen and (max-width: 680px) {
+  .row{
+    display: block;
+  }
 }
 /* global heros  */
 .hero{
