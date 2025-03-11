@@ -20,38 +20,59 @@ const Projects = () => {
             </div>
         </header>
         <section id="projects" className="container">
-          <div>
-            <h2>Websites</h2>
-            <p><a href="https://cubscoutspack233.org/" target="_blank">Cub Scouts Pack 233 static site</a></p>
-            <div> <p>Site is used to market a local Cub Scout pack for parents/guardians of children 5-11 or K-5th Grade.</p>
-              <ul>Skills portrayed in project:
-                <li>HTML</li>
-                <li>SEO</li>
-                <li>CSS and Mobile Responsiveness</li>
-                <li>Github Studio hosting</li>
-                <li>Cloudflare SSL</li>
-                <li>Instagram embed</li>
-                <li>External and internal links</li>
-              </ul>
+            <h2 className="col1">Websites</h2>
+          <div className="row">
+            <div className="col2">
+              <p>JamieGarcia.dev</p>
+                <div> 
+                  <p>Site is used to market myself</p>
+                  <ul>Skills portrayed in project:
+                    <li>HTML</li>
+                    <li>CSS and Mobile Responsiveness</li>
+                    <li>React</li>
+                    <li>React-Dom</li>
+                    <li>React Router</li>
+                    <li>React Multi Carousel - plugin</li>
+                    <li>Github Pages hosting</li>
+                    <li>Cloudflare SSL</li>
+                  </ul>
+                </div>
             </div>
-            <h2>Sandbox</h2>
-            <p>Date Countdown timer using React Hooks.</p>
+            <div className="col2">
+              <p><a href="https://cubscoutspack233.org/" target="_blank">Cub Scouts Pack 233 static site</a></p>
+                <div> 
+                  <p>Site is used to market a local Cub Scout pack for parents/guardians of children 5-11 or K-5th Grade.</p>
+                  <ul>Skills portrayed in project:
+                    <li>HTML</li>
+                    <li>SEO</li>
+                    <li>CSS and Mobile Responsiveness</li>
+                    <li>Github Pages hosting</li>
+                    <li>Cloudflare SSL</li>
+                    <li>Instagram embed</li>
+                    <li>External and internal links</li>
+                  </ul>
+                </div>
+            </div>
+          </div> 
+        </section>
            
+       
+        <aside className="container col1" style={{marginBottom: "50px"}}>
+        <h2>Sandbox</h2>
+            <p>Date Countdown timer using React Hooks.</p>
               <ul>Skills portrayed in project:
                 <li>React</li>
                 <li>Typescript</li>
                 <li>React Hooks</li>
                 <li>HTML</li>
               </ul>
-          
-            <iframe src="https://codesandbox.io/embed/zrvxdp?view=editor+%2B+preview&hidenavigation=1"
+        <iframe src="https://codesandbox.io/embed/zrvxdp?view=editor+%2B+preview&hidenavigation=1"
               className="iFrameSandbox"
               title="zen-sky-zrvxdp"
               allow="accelerometer; encrypted-media; hid;"
               sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
             ></iframe>
-          </div>
-        </section>
+        </aside>
       </>
   );
 }
