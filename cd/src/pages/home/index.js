@@ -1,5 +1,5 @@
 import './homepage.css'
-import Logos from "../../components/carousel";
+import Logos from "../../components/logos/logos";
 import codePic from "../../assests/images/certcardcode.webp"
 import { Helmet } from 'react-helmet';
 
@@ -41,7 +41,7 @@ const HomePage = () => {
                     <p>Currently pursuing a Bachelor’s in Computer Science at WGU.</p>
                 </div>
                 <div className='col2-3 text-center'>
-                    <img className='m-auto codeImg' src={codePic} height={300} width={800}/>
+                    <img className='m-auto codeImg' alt="Screen shot of code used for this site." src={codePic} height={300} width={800}/>
                     <Logos responsive={responsive} centered={true} title="Skills"/>
                 </div>
             </section>

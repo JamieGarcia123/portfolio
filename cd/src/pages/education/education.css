@@ -18,159 +18,20 @@
         padding: 0px 0px 50px;
 
     }
-    .certCard {
-        width: 300px;
-    }
-    
 }
-
 
 .certContainer{
- max-width: 1440px;
- width: 100%;
- margin: auto;
- display: flex;
- flex-direction: row;
- justify-content: center;
-}
-
-.certCard{
-    justify-content: center;
-    width: 400px;
-    height: 300px;
-    margin: auto; 
-    text-align: left;
-    padding: 10px 0px;
-    perspective: 1000px;
-}
-@media screen and (max-width: 680px) {
-    .certCard {
-        width: 300px;
-    }  
-}
-.certCard-inner {
-    position: relative;
-    cursor: pointer;
-    background: linear-gradient(#ffffff, #ffffff20);
+    max-width: 1440px;
     width: 100%;
-    height: 100%;
-    transition: transform 0.5s;
-    transform-style: preserve-3d;
-
-}
-
-.certCard:hover .certCard-inner{
-    transform: rotateY(180deg);
-    background-color: transparent;
-}
-.certCard-front{
-    padding: 0px 25px;
-}
-@media screen and (max-width: 680px) {
-    .certCard-front{
-        padding: 0px;
-    }
-    
-}
-
-.certCard-front div{
-    height: 100%;
-    width: 85%;
-    padding: 0px 15px;
-}
-
-.brdrlft{
-    border-left: 1px solid red;
-    position: absolute;
-    top: 0px;
-    left: 45px;
-}
-
-
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+   
 .h3title{
     margin-bottom: 0px;
     margin-top: 40px;
 }
 
- .certCard-front, .certCard-back {
-    position: absolute;
-    width: 107.5%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; 
-     backface-visibility: hidden; 
- }
- @media screen and (max-width: 680px) {
-    .certCard-front{
-        height: 104%;
-    }
-    
- }
-  
-.brdrbtm{
-    border-bottom: 1px solid blue;
-    width: 110%;
-    margin-left: -87px;
 
-}
-@media screen and (max-width: 680px) {
-    .brdrbtm{
-        width: 110%;
-        margin-left: -61px;
-    } 
-}
-.brdrbtm-height {    
-    height: 17px;
-}
-.brdrbtm span{
-    padding-left: 50px;
-}
-@media screen and (max-width: 680px) {
-    .brdrbtm span{
-        padding-left: 52px;
-        display: inline-block;
-    }
-}
-
-.certCard-back {
-    transform: rotateY(180deg);
-    width: 100%;
-    height: 100%;
-}
-
-#aws {
-    background-image: url('../../assests/images/AWScloudpractitioner.webp');
-    height: 300px;
-    width: 100%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-@media screen and (max-width: 680px) {
-    #projectPlus{
-        height: 275px;
-    }
-}
-
-#projectPlus {
-    background-image: url('../../assests/images/project+.webp');
-    height: 300px;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-@media screen and (max-width: 680px) {
-    #aws{
-        height: 275px;
-    }
-}
-
-#itilFour{
-    background-image: url('../../assests/images/itil4.webp');
-    height: 300px;    
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-@media screen and (max-width: 680px) {
-    #itilFour{
-        height: 275px;
-    }
-}

@@ -1,6 +1,6 @@
 
 import Carousel from "react-multi-carousel"
-import "./carousel.css"
+import "./logos.css"
 import htmllogo from "../../assests/logos/html-1.svg"
 import jslogo from "../../assests/logos/logo-javascript.svg"
 import pythonlogo from "../../assests/logos/python-4.svg"
@@ -18,13 +18,13 @@ const Logos = ({title, responsive, centered }) => {
       {title ? <h3 className="title">{title}</h3> : null}
     <Carousel showdots={true} responsive={responsive}  centerMode={centered} infinite={true}>
       <img alt="Software developer proficient in HTML" src={htmllogo} width={100} height={100} />
-      <img src={jslogo} width={100} height={100} />
-      <img src={reactlogo} width={100} height={100} />
-      <img src={pythonlogo} width={100} height={100} />
-      <img src={nextjslogo} width={100} height={100} />
-      <img src={wclogo} width={100} height={100} />
-      <img src={wplogo} width={100} height={100} />
-      <img src={m365logo} width={100} height={100}/>  
+      <img alt="Software developer proficient in Javascript" src={jslogo} width={100} height={100} />
+      <img alt="Software developer proficient in React" src={reactlogo} width={100} height={100} />
+      <img alt="Software developer proficient in Python" src={pythonlogo} width={100} height={100} />
+      <img alt="Software developer proficient in Next.JS" src={nextjslogo} width={100} height={100} />
+      <img alt="Software developer proficient in WooCommerce" src={wclogo} width={100} height={100} />
+      <img alt="Software developer proficient in WordPress" src={wplogo} width={100} height={100} />
+      <img alt="Software developer proficient in Microsoft 365" src={m365logo} width={100} height={100}/>  
     </Carousel>
 </div>
   )
