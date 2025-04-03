@@ -2,17 +2,7 @@ import { certifications } from "../../api/certification";
 import "./certifications.css"
 import Carousel from "react-multi-carousel";
 
-const responsive = {
 
-    desktop: {
-      breakpoint: { max: 4000, min: 680 },
-      items: 1
-    },
-    mobile: {
-      breakpoint: { max: 680, min: 0 },
-      items: 1
-    }
-  };
 const Certs = ({title, responsive}) => {
   return(
 <>
