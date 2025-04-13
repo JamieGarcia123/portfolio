@@ -13,8 +13,18 @@
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/notosansdisplay/v26/RLpbK4fy6r6tOBEJg0IAKzqdFZVZxpMkXJMhnB9XjO1o90LuV-PT4Doq_AKp_3cKZTua2xHr.woff2) format('woff2');
   }
+
+:root{
+ --background-color: #1f283310;
+
+}
+[data-theme="dark"] {
+  --font-color: #eee;
+  --background-color: #333;
+  --link-color: #36454f;
+}
 body {
-  background-color: #1f283310;
+  background-color: var(--background-color);
    font-family: slabo;
   letter-spacing: .075rem;
 }
@@ -31,7 +41,7 @@ main {
 
 
 #projects a{
-  color: #36454f;
+  color: var(--link-color);
   text-decoration: underline;
 }
 /* COLUMNS */
