@@ -21,6 +21,7 @@ const EducationPage = () => {
     <>
     <Helmet>
       <title>Jamie Garcia | Education</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta name="keywords" content="Website developer, React developer, Software Engineer, Front-End Developer, web developer" />
       <meta name="description" content="Jamie's educational background includes a B.S. in Software Engineering along with other related Certifications." />
     </Helmet>

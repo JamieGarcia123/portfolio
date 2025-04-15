@@ -7,6 +7,7 @@ const Projects = () => {
       <>
       <Helmet>
         <title>Jamie Garcia | Projects</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="keywords" content="Website developer, React developer, Software Engineer, Front-End Developer, web developer, wordpress developer" />
         <meta name="description" content="Jamie's background includes a B.S. in Software Engineering along with other related Certifications." />
       </Helmet>
@@ -74,9 +75,7 @@ const Projects = () => {
                 </div>
             </div>
           </div> 
-        </section>
-           
-       
+        </section>  
         <aside className="container col1" style={{marginBottom: "50px"}}>
         <h2>Sandbox</h2>
             <p>Date Countdown timer using React Hooks.</p>

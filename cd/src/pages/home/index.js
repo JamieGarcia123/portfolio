@@ -23,14 +23,16 @@ const HomePage = () => {
     return(
         <>
             <Helmet>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <title>Jamie Garcia | Software Developer</title>
                 <meta property="og:image" content={ogImage}/>
             </Helmet>
+            <section id="homeHero" className="homeHeroContainer">
+
             <video playsinline autoPlay muted loop id="myVideo">
                 <source src={video} type="video/mp4"/>
                 Your browser does not support HTML5 video.
             </video>   
-                <section id="homeHero" className="homeHeroContainer">
                 <div className='row container '>
                     <div className='col1'>
                    <Logos responsive={responsive} centered={true} title="Skills"/>
@@ -48,7 +50,7 @@ const HomePage = () => {
                         {/* <img className='m-auto codeImg' alt="Screen shot of code used for this site." src={codePic} height={300} width={800}/> */}
                     </div> 
                 </div> 
-            </section>
+           </section>
         </>
     )
 }

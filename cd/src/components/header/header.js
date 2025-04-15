@@ -7,7 +7,7 @@ export default function Header() {
 
     <div className="header-container">
         <nav className="header-content">
-          
+  
               <NavLink to="" end>Bio</NavLink>
                 <NavLink to="education" end>Education</NavLink>
                 <NavLink to="work-experience" end>Experience</NavLink>
