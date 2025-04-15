@@ -101,6 +101,8 @@ h1 {
   color: #66fcf1;
   font-size: 2.75rem;
   font-weight: 700;
+  margin-top: .25em;
+  margin-bottom: .25em;
 }
 @media screen and (max-width: 680px) {
   h1{
@@ -113,6 +115,8 @@ h2 {
   color: #61afef;
   font-size: 2rem;
   font-weight: 600;
+  margin-top: .25em;
+  margin-bottom: .25em;
 }
 
 h3, h4, h5, h6 {
@@ -120,6 +124,8 @@ h3, h4, h5, h6 {
   font-size: 1.5rem;
   color: #36454f;
   font-weight: normal;
+  margin-top: .63em;
+  margin-top: .63em;
 }
 @media screen and (max-width: 680px) {
   h3, h4, h5, h6 {
@@ -131,7 +137,7 @@ p {
   color: #36454f;
   font-weight: 700;
   font-size: medium;
-  margin: 25px;
+  margin: .25em;
 }
 /* global containers */
 .container {
@@ -198,7 +204,7 @@ p {
   }
 }
 
- #homeHero{
+ /* #homeHero{
   background-image: url("./assests/images/cooltechbg.webp");
   background-size: cover;
- }
+ } */
