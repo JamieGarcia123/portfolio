@@ -34,7 +34,7 @@ const HomePage = () => {
                    <Logos responsive={responsive} centered={true} title="Skills"/>
                    </div>
                    </div>
-                   <div className='row container home-font '>
+                   <div className='row  home-font gradientBG '>
                    <div  id="slide" className='text-left'>
                         <h1>Jamie Garcia</h1>
                         <h2>Software Developer</h2>
