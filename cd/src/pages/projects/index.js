@@ -54,12 +54,22 @@ const Projects = () => {
                 </div>
             </div>
             <div className="col2">
-              <p>Other sites</p>
+              <h3>Other sites</h3>
                 <div> 
                   <ul>
                     <li>Kensho</li>
-                    <li>justsalad.com</li>
-                    <li>mightydeposits.com</li>
+                    <li>Just Salad</li>
+                    <li><a traget="_blank" href="https://mightydeposits.com/find-banks#/find?cause=all&page=1">Mighty Deposits</a></li>
+                  </ul>
+                </div>
+                <div> 
+                  <h3>Word Press Sites</h3>
+                  <ul>
+                    <li><a target="_blank" href="https://xpresswellnessurgentcare.com/">Xpress Wellness</a></li>
+                    <li><a target="_blank" href="https://integrityuc.com/">Integrity</a></li>
+                    <li><a targe="_blank" href="https://wixonbathworks.org/">Wixon Bath</a></li>
+                    <li><a target="_blank" href="https://gavii.ai/">Gavii</a></li>
+                    <li><a target="_blank" href="https://carolenneking.com/">Carol Enneking</a></li>
                   </ul>
                 </div>
             </div>
