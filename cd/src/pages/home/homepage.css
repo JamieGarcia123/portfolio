@@ -5,6 +5,11 @@
     height: 80vh;
     align-items: center;
    }
+   @media screen and (max-width: 1024px) {
+    .homeHeroContainer{
+        display: block;
+       }
+   }
 
 .home-font p{
     color:azure
@@ -17,6 +22,12 @@
     background-image: linear-gradient(to top, #45a29e, #39748a, #3d485e, #2b242d);
     padding-bottom: 25px;
 }
+@media screen and (max-width: 1024px) {
+    .gradientBG{
+        bottom: -135px;
+    }
+   }
+
 #myVideo {
     position: fixed;
     right: 0;
