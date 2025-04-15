@@ -53,6 +53,16 @@ const Projects = () => {
                   </ul>
                 </div>
             </div>
+            <div className="col2">
+              <p>Other sites</p>
+                <div> 
+                  <ul>
+                    <li>Kensho</li>
+                    <li>justsalad.com</li>
+                    <li>mightydeposits.com</li>
+                  </ul>
+                </div>
+            </div>
           </div> 
         </section>
            
