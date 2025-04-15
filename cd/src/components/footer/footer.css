@@ -5,6 +5,11 @@
     color: azure;
     background-color: #45A29e;
   }
+  @media screen and (max-width: 1024px){
+    .footer-container{
+      position: absolute;
+    }
+  }
   
   .footer-content{
     max-width: 1200px;
@@ -12,7 +17,11 @@
     padding: 20px;
     margin: auto;
   }
- 
+  @media screen and (max-width: 1024px){
+ #links{
+  display: flex;
+ }
+}
 
 .list-none{
   list-style: none;

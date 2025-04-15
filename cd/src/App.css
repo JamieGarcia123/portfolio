@@ -200,11 +200,7 @@ p {
   height: 100%;
   align-items: center;
  }
- @media screen and (max-width: 680px) {
-  .heroContainer{
-    display: block;
-  }
-}
+
 
  /* #homeHero{
   background-image: url("./assests/images/cooltechbg.webp");
