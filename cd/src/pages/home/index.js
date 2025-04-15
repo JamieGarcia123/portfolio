@@ -2,7 +2,7 @@ import './homepage.css'
 import Logos from "../../components/logos/logos";
 import video from "../../assests/images/home-video-clip.mp4"
 import { Helmet } from 'react-helmet';
-import ogImage from "./assests/images/cooltechbg.webp";
+import ogImage from "../../assests/images/cooltechbg.webp";
 
 
 const responsive = {
