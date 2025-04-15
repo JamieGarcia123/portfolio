@@ -2,6 +2,7 @@ import './homepage.css'
 import Logos from "../../components/logos/logos";
 import video from "../../assests/images/home-video-clip.mp4"
 import { Helmet } from 'react-helmet';
+import ogImage from "./assests/images/cooltechbg.webp";
 
 
 const responsive = {
@@ -23,6 +24,7 @@ const HomePage = () => {
         <>
             <Helmet>
                 <title>Jamie Garcia | Software Developer</title>
+                <meta property="og:image" content={ogImage}/>
             </Helmet>
             <video playsinline autoPlay muted loop id="myVideo">
                 <source src={video} type="video/mp4"/>
