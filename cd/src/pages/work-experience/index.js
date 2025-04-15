@@ -3,16 +3,16 @@ import "./work-experience.css"
 import { joblist } from "../../api/workhistory";
 import Logos from "../../components/logos/logos.js";
 import { Helmet } from "react-helmet";
-
+import resume from "../../assests/images/Resume.pdf"
 
 const responsive = {
     desktop: {
       breakpoint: { max: 6000, min: 1024 },
-      items: 4
+      items: 6
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 3
+      items: 4
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -47,19 +47,19 @@ const WorkExperience = () => {
                 {joblist.map((job) => 
                 <div key={job.id}>
                     <h2>{job.company}</h2>
-                    <h3>Position: {job.title}</h3>
-                    <p>Start Date: {job.start}</p>
-                    {job?.end ? <p>End Date: {job.end}</p> : <p>End Date: Still employeed with</p>}
+                    <h3>{job.title}</h3>
+                   <div> <p>{job.start} -</p>
+                    {job?.end ? <p>{job.end}</p> : <p>Present</p>}</div>
                     <p>{job.description}</p>
 
                 </div>
                 )}
             </div>
-            <div className="col2">
-                <div className="resumeCard">
+            <div className="col2"><a href={resume} download><u>&#8595;</u>Download my resume</a> 
+                <div className="resumeCard"> 
                     <div className="resumeCard-inner">
                         <div className="resumeCard-front"></div>
-                        <div className="resumeCard-back"></div>
+                        {/* <div className="resumeCard-back"></div> */}
                     </div>
                 </div>
             </div>
