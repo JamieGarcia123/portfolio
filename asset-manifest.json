@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.f844f07e.css",
-    "main.js": "/static/js/main.c2ef7e0e.js",
+    "main.css": "/static/css/main.14c09d11.css",
+    "main.js": "/static/js/main.801c2904.js",
     "static/js/453.99da484d.chunk.js": "/static/js/453.99da484d.chunk.js",
+    "static/media/home-video-clip.mp4": "/static/media/home-video-clip.ceb4ba5f4e46496bd44e.mp4",
     "static/media/css-code.webp": "/static/media/css-code.dd2de3de69f429383e8a.webp",
     "static/media/cooltechbg.webp": "/static/media/cooltechbg.3251fbcd7f39279c60d5.webp",
     "static/media/codeprojects.webp": "/static/media/codeprojects.10948b3b8a2b3d01c570.webp",
-    "static/media/resumefront.webp": "/static/media/resumefront.d5c32f6a91f2c5a50879.webp",
+    "static/media/Jamie Garcia Resume.webp": "/static/media/Jamie Garcia Resume.918890c1dcbfc6dc174a.webp",
     "static/media/project+.webp": "/static/media/project+.ada48947918676d6fd71.webp",
-    "static/media/resumeback.webp": "/static/media/resumeback.ac684b16417ee48da1e6.webp",
     "static/media/itil4.webp": "/static/media/itil4.21b79d22ed4a237254f6.webp",
     "static/media/AWScloudpractitioner.webp": "/static/media/AWScloudpractitioner.f1eeb2692e2e494030f8.webp",
-    "static/media/certcardcode.webp": "/static/media/certcardcode.830231a6da580706d9de.webp",
+    "static/media/Resume.pdf": "/static/media/Resume.f3e384389af38703e093.pdf",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
@@ -24,12 +24,12 @@
     "static/media/logo-javascript.svg": "/static/media/logo-javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
     "index.html": "/index.html",
     "static/media/html-1.svg": "/static/media/html-1.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "main.f844f07e.css.map": "/static/css/main.f844f07e.css.map",
-    "main.c2ef7e0e.js.map": "/static/js/main.c2ef7e0e.js.map",
+    "main.14c09d11.css.map": "/static/css/main.14c09d11.css.map",
+    "main.801c2904.js.map": "/static/js/main.801c2904.js.map",
     "453.99da484d.chunk.js.map": "/static/js/453.99da484d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f844f07e.css",
-    "static/js/main.c2ef7e0e.js"
+    "static/css/main.14c09d11.css",
+    "static/js/main.801c2904.js"
   ]
 }
