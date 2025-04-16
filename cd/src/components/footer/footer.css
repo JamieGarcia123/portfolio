@@ -4,6 +4,9 @@
     display: flex;
     color: azure;
     background-color: #45A29e;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
   }
   @media screen and (max-width: 1024px){
     .footer-container{
@@ -17,7 +20,8 @@
     padding: 20px;
     margin: auto;
   }
-  @media screen and (max-width: 1024px){
+
+@media screen and (max-width: 1024px){
  #links{
   display: flex;
  }

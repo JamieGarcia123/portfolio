@@ -15,8 +15,8 @@
     color:azure
 }
 .gradientBG{
-    position: relative;
-    bottom: -80px;
+    position: absolute;
+    bottom: 100px;
     padding-top: 25px;
     background-color: #45A29e;
     background-image: linear-gradient(to top, #45a29e, #39748a, #3d485e, #2b242d);
@@ -40,7 +40,7 @@
 #slide {
     position: relative;
     left: -100%;
-    -webkit-animation: slide 0.25s forwards;
+    -webkit-animation: slide .25s forwards;
     -webkit-animation-delay: 1s;
     animation: slide 0.25s forwards;
     animation-delay: 1s;
