@@ -10,6 +10,7 @@
   }
   @media screen and (max-width: 1024px){
     .footer-container{
+      height: 75px;
       position: absolute;
     }
   }

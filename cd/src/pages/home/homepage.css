@@ -16,8 +16,7 @@
 }
 .gradientBG{
     position: absolute;
-    bottom: 
-    100px;
+    bottom: 75px;
     padding-top: 25px;
     background-color: #45A29e;
     background-image: linear-gradient(to top, #45a29e, #39748a, #3d485e, #2b242d);
@@ -25,7 +24,7 @@
 }
 @media screen and (max-width: 1024px) {
     .gradientBG{
-        bottom: -25px;
+        bottom: 45px;
         text-align: center;
     }
    }
@@ -38,6 +37,7 @@
     min-width: 100%; 
     min-height: 100%;
   }
+
 #slide {
     position: relative;
     left: -100%;
@@ -48,9 +48,9 @@
 }
 
 @-webkit-keyframes slide {
-    100% { left: 0; }
+    100% { left: 5%; }
 }
 
 @keyframes slide {
-    100% { left: 0; }
+    100% { left: 5%; }
 }

@@ -56,7 +56,7 @@ const WorkExperience = () => {
                 </div>
                 )}
             </div>
-            <div className="col2"><a href={resume} download><u>&#8595;</u>Download my resume</a> 
+            <div className="col2"><a style={{color: '#000000'}} href={resume} download><u>&#8595;</u>Download my resume</a> 
                 <div className="resumeCard"> 
                     <div className="resumeCard-inner">
                         <div className="resumeCard-front"></div>

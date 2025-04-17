@@ -52,6 +52,7 @@ main {
 /* 2 even column layout */
 .col2{
   width: 50%;
+  margin-inline: auto;
   display: flex;
   flex-direction: column;
 }
@@ -84,12 +85,12 @@ main {
 }
 @media screen and (max-width: 680px) {
   .col2-3{
-    width: 100%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 680px) {
   .col2 {
-    width: 100% !important;
+    width: 90% ;
   } 
 }
 
@@ -97,7 +98,7 @@ main {
 h1 {
   font-family: Noto;
   color: #66fcf1;
-  font-size: 2.75rem;
+  font-size: 2.25rem;
   font-weight: 700;
   margin-top: .25em;
   margin-bottom: .25em;
@@ -125,11 +126,11 @@ h3, h4, h5, h6 {
   margin-top: .63em;
   margin-top: .63em;
 }
-@media screen and (max-width: 680px) {
+/* @media screen and (max-width: 680px) {
   h3, h4, h5, h6 {
     font-size: 1.25rem;
   }
-}
+} */
 
 p {
   color: #36454f;
