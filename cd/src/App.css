@@ -5,13 +5,13 @@
 @font-face {
   font-family: slabo;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/slabo13px/v15/11hEGp_azEvXZUdSBzzRQK6h2jkY.woff2) format('woff2');
+  src: url('./assests/fonts/slabo.woff2') format('woff2');
   }
 
   @font-face {
     font-family: Noto;
     font-display: swap;
-    src: url(https://fonts.gstatic.com/s/notosansdisplay/v26/RLpbK4fy6r6tOBEJg0IAKzqdFZVZxpMkXJMhnB9XjO1o90LuV-PT4Doq_AKp_3cKZTua2xHr.woff2) format('woff2');
+    src: url('./assests/fonts/noto.ttf') format('woff2');
   }
 
 :root{
@@ -24,8 +24,6 @@
   --link-color: #36454f;
 }
 body {
-  background-color: var(--background-color);
-   font-family: slabo;
   letter-spacing: .075rem;
 }
 main {
