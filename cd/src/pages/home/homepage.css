@@ -7,6 +7,7 @@
    }
    @media screen and (max-width: 1024px) {
     .homeHeroContainer{
+        height: 20vh;
         display: block;
        }
    }
@@ -15,8 +16,6 @@
     color:azure
 }
 .gradientBG{
-    position: absolute;
-    bottom: 75px;
     padding-top: 25px;
     background-color: #45A29e;
     background-image: linear-gradient(to top, #45a29e, #39748a, #3d485e, #2b242d);
@@ -24,7 +23,6 @@
 }
 @media screen and (max-width: 1024px) {
     .gradientBG{
-        bottom: 45px;
         text-align: center;
     }
    }
