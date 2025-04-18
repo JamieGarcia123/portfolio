@@ -16,10 +16,9 @@
     color:azure
 }
 .gradientBG{
-    padding-top: 25px;
+    padding: 25px;
     background-color: #45A29e;
     background-image: linear-gradient(to top, #45a29e, #39748a, #3d485e, #2b242d);
-    padding-bottom: 25px;
 }
 @media screen and (max-width: 1024px) {
     .gradientBG{
@@ -46,9 +45,19 @@
 }
 
 @-webkit-keyframes slide {
-    100% { left: 5%; }
+    100% { left: 10%; }
 }
 
 @keyframes slide {
-    100% { left: 5%; }
+    100% { left: 10%; }
+}
+@media  screen and (max-width: 1040px;) {
+    @-webkit-keyframes slide {
+        100% { left: 0; }
+    }
+    
+    @keyframes slide {
+        100% { left: 0; }
+    }
+    
 }
