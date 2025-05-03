@@ -71,7 +71,7 @@ const Projects = () => {
                     <li><a targe="_blank" href="https://wixonbathworks.org/">Wixon Bath</a></li>
                     <li><a target="_blank" href="https://gavii.ai/">Gavii</a></li>
                     <li><a target="_blank" href="https://carolenneking.com/">Carol Enneking</a></li>
-                    <li><a target="_blank" href="https://smokeandmemories.com/">Smoke & Memories</a></li>
+                    <li><a target="_blank" href="https://smokenmemories.com/">Smoke & Memories</a></li>
                   </ul>
                 </div>
             </div>
