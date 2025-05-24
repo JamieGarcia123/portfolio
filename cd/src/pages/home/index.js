@@ -64,7 +64,6 @@ const HomePage = () => {
                     <h3 style={{color: '#66fcf1'}}>My Approach</h3>
                     <p>I believe in a collaborative process that starts with understanding your goals and challenges. From there, I design and develop solutions that align with your vision and deliver measurable results. Whether you're a startup looking to establish an online presence or an established business aiming to enhance your digital footprint, I'm here to help.</p>
                   </section>
-                 
                 </div>
               </div> 
             </section>
