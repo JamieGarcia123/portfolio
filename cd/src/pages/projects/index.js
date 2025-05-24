@@ -21,7 +21,9 @@ const Projects = () => {
             </div>
         </header>
         <section id="projects" className="container">
-            <h2 className="col1">Websites</h2>
+             <p>    This collection showcases a range of projects that reflect my skills in web development, design, and problem-solving. From personal experiments to real-world client work, each project demonstrates my commitment to creating responsive, accessible, and visually engaging digital experiences. Whether working solo or collaborating with a team, I focus on writing clean, maintainable code and delivering solutions that meet both user needs and business goals.
+</p> <h2 className="col1">Websites</h2>
+          
           <div className="row">
             <div className="col2">
               <p>JamieGarcia.dev</p>
