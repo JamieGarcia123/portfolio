@@ -42,12 +42,29 @@ const HomePage = () => {
                   <div id="slide" className='text-left'>
                       <h1>Jamie Garcia</h1>
                       <h2>Software Developer</h2>
-                  </div> 
+                 
+                   </div> 
+                   <div style={{padding: '0 20px', width: '80%'}}>
+                    <h3 style={{color: '#66fcf1'}}>Let's Build Something Great Together</h3>
+                    <p>Explore my portfolio to see examples of my work and the impact I've made for clients across various industries.<br/>If you're ready to take your web presence to the next level, <a href="#contact">let's connect</a> and discuss how I can assist you.</p>
+                  </div>
                 </div>
                 <div className='col2 center-items text-center padding-25'>
-                    <p>A motivated Web Developer with 5 years of experience in JavaScript frameworks such Vue.js with Nuxt, React with and without NextJs. Familiar with TypeScript, Redux and Angular.</p>
-                    <p>Also experienced in C# and .Net Object Oriented projects. Skilled in WordPress (Elementor, Avada, WooCommerce), HTML, CSS, SCSS, TailWinds CSS, Bootstrap, and REST APIs. Strong background in mobile responsivenss. Familiar with Python, C#, SQL, and Agile project management.</p>
-                    <p> Have worked with workflows in Jira, Monday and Microsoft Teamworks. Am efficient in Remote settings.</p>                        
+                  <section>
+                    <h3 style={{color: '#66fcf1'}}>What I Do</h3>
+                    <ul style={{ textAlign: 'left', padding: 0, color: '#fff' }}>
+                      <li>Custom Web Development: Tailored solutions using modern technologies to meet your unique business needs.</li>
+                      <li>Responsive Design: Ensuring your website delivers an optimal experience on any device.</li>
+                      <li>Performance Optimization: Implementing best practices to enhance speed and efficiency.</li>
+                      <li>SEO Best Practices: Structuring content and code to improve search engine visibility.</li>
+                      <li>Ongoing Support: Providing maintenance and updates to keep your site running smoothly.</li>
+                    </ul>
+                  </section>
+                  <section>
+                    <h3 style={{color: '#66fcf1'}}>My Approach</h3>
+                    <p>I believe in a collaborative process that starts with understanding your goals and challenges. From there, I design and develop solutions that align with your vision and deliver measurable results. Whether you're a startup looking to establish an online presence or an established business aiming to enhance your digital footprint, I'm here to help.</p>
+                  </section>
+                 
                 </div>
               </div> 
             </section>
