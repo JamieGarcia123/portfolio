@@ -1,4 +1,5 @@
 
+import { useEffect, useState } from "react";
 import "./work-experience.css"
 import { joblist } from "../../api/workhistory";
 import Logos from "../../components/logos/logos.js";
@@ -20,9 +21,24 @@ const responsive = {
     }
   };
 
-
 const WorkExperience = () => {
 
+
+const colors = ['#ffffff', '#cecece', '#008000', '#FF0000', '#800080', '#e83d90', '#3d90e8', '#903de8', '#90e83d', '#3d903d', '#e83d3d'];
+const [bgColor, setBgColor] = useState(colors[0]);
+
+  function ColorChanger() {
+      var randomIndex = Math.floor(Math.random() * colors.length);
+      
+      while (randomIndex === 0) {
+        randomIndex = Math.floor(Math.random() * colors.length)
+      }
+      setBgColor(colors[randomIndex]);
+      return;
+
+    };
+
+  
     return (
         <>
         <Helmet>
@@ -43,8 +59,10 @@ const WorkExperience = () => {
         <section className="">
         <Logos responsive={responsive} centered={false} title={"Skills"} />
         </section>
-        <section id="workExperience" className="container">
-            <div className="col2">
+        <section id="workExperience"  style={{backgroundColor: bgColor}}>
+            <div className="container">
+                <div className="col2">
+                <button className="colorCTA" onClick={() => ColorChanger()}>Change Color</button>
                 {joblist.map((job) => 
                 <div key={job.id}>
                     <h2>{job.company}</h2>
@@ -55,6 +73,7 @@ const WorkExperience = () => {
 
                 </div>
                 )}
+                </div>
             </div>
             <div className="col2"><a style={{color: '#000000'}} href={resume} download><u>&#8595;</u>Download my resume</a> 
                 <div className="resumeCard"> 

@@ -5,7 +5,13 @@
     z-index: 0;
 
 }
-
+.colorCTA{
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
 #workExperience {
     padding: 50px 1rem 100px;
     display: flex;
@@ -19,7 +25,7 @@
 }
 .resumeCard {
     background-color: transparent;
-    width: 550px;
+    width: 510px;
     height: 625px;
     perspective: 1500px;
 }

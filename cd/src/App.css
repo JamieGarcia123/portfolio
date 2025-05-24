@@ -83,12 +83,12 @@ main {
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 987px) {
   .col2-3{
     width: 90%;
   }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 987px) {
   .col2 {
     width: 90% ;
   } 
