@@ -25,7 +25,7 @@ const HomePage = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <title>Jamie Garcia | Software Developer</title>
                 <meta property="og:description" content="Software Developer for wordpress, React, JavaScript, Python, and more! " />
-                <meta property="og:image" content='../../assets/images/cooltechbg.webp'/>
+                <meta property="og:image" content="https://www.jamiegarcia.dev/public/images/cooltechbg.webp" />
             </Helmet>
             <header className="homeHeroContainer">
 
