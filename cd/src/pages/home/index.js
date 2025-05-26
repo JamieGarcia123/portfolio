@@ -2,7 +2,6 @@ import './homepage.css'
 import Logos from "../../components/logos/logos";
 import video from "../../assests/images/home-video-clip.mp4"
 import { Helmet } from 'react-helmet';
-import ogImage from "../../assests/images/cooltechbg.webp";
 
 
 const responsive = {
@@ -25,7 +24,8 @@ const HomePage = () => {
             <Helmet>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <title>Jamie Garcia | Software Developer</title>
-                <meta property="og:image" content={ogImage}/>
+                <meta property="og:description" content="Software Developer for wordpress, React, JavaScript, Python, and more! " />
+                <meta property="og:image" content='../../assests/images/cooltechbg.webp'/>
             </Helmet>
             <header className="homeHeroContainer">
 

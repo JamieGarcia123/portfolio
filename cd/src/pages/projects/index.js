@@ -79,21 +79,36 @@ const Projects = () => {
             </div>
           </div> 
         </section>  
-        <aside className="container col1" style={{marginBottom: "50px"}}>
-        <h2>Sandbox</h2>
+        <aside className="container row" style={{marginBottom: "10px"}}>
+          <div className="col1"><h2>Sandbox</h2></div>
+        </aside>
+        <aside className="container row" style={{marginBottom: "50px"}}>         
+           <div className="col2">  
             <p>Date Countdown timer using React Hooks.</p>
               <ul>Skills portrayed in project:
-                <li>React</li>
-                <li>Typescript</li>
-                <li>React Hooks</li>
-                <li>HTML</li>
+                <li>React/React Hooks</li>
               </ul>
-        <iframe src="https://codesandbox.io/embed/zrvxdp?view=editor+%2B+preview&hidenavigation=1"
+              <iframe src="https://codesandbox.io/embed/zrvxdp?view=editor+%2B+preview&hidenavigation=1"
+                className="iFrameSandbox"
+                title="zen-sky-zrvxdp"
+                allow="accelerometer; encrypted-media; hid;"
+                sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+              >
+              </iframe>
+          </div>
+          <div className="col2">  
+            <p>Tic Tac Toe.</p>
+              <ul>Skills portrayed in project:
+              <li>Python</li>
+              </ul>
+              <iframe src="https://codesandbox.io/p/devbox/gfwvxv?embed=1&file=%2Fmain.py"
               className="iFrameSandbox"
-              title="zen-sky-zrvxdp"
-              allow="accelerometer; encrypted-media; hid;"
+              title="tic-tac-toe"
+              allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
               sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-            ></iframe>
+              >
+              </iframe>
+          </div>
         </aside>
       </>
   );
