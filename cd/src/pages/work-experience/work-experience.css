@@ -31,9 +31,10 @@
 }
 @media screen and (max-width: 680px) {
    .resumeCard{
-    width: 370px;
-    height: 400px;
-   }
+        height: 470px;
+        width: 350px;
+    }
+   
 }
 .resumeCard-inner {
     /* position: relative; */
