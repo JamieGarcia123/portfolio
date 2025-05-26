@@ -1,5 +1,5 @@
 #workExperienceBackground {
-    background-image: url('../../assests/images/css-code.webp');
+    background-image: url('../../assets/images/css-code.webp');
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 0;
@@ -46,7 +46,7 @@
 }
 
 .resumeCard-front{
-    background-image: url("../../assests/images/Jamie\ Garcia\ Resume.webp");
+    background-image: url("../../assets/images/Jamie\ Garcia\ Resume.webp");
     background-size: cover;
     height: 100%;
     width: 100%;

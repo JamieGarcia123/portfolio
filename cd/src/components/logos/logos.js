@@ -1,17 +1,17 @@
 
 import Carousel from "react-multi-carousel"
 import "./logos.css"
-import htmllogo from "../../assests/logos/html-1.svg"
-import jslogo from "../../assests/logos/logo-javascript.svg"
-import pythonlogo from "../../assests/logos/python-4.svg"
-import reactlogo from "../../assests/logos/react-1.svg"
-import wclogo from "../../assests/logos/woocommerce.svg"
-import wplogo from "../../assests/logos/wordpress-icon.svg"
-import nextjslogo from "../../assests/logos/next-js.svg"
-import m365logo from "../../assests/logos/Microsoft-365.svg"
-import github from "../../assests/logos/github.svg"
-import elementor from "../../assests/logos/Elementor.svg"
-import avada from "../../assests/logos/avada-g.svg"
+import htmllogo from "../../assets/logos/html-1.svg"
+import jslogo from "../../assets/logos/logo-javascript.svg"
+import pythonlogo from "../../assets/logos/python-4.svg"
+import reactlogo from "../../assets/logos/react-1.svg"
+import wclogo from "../../assets/logos/woocommerce.svg"
+import wplogo from "../../assets/logos/wordpress-icon.svg"
+import nextjslogo from "../../assets/logos/next-js.svg"
+import m365logo from "../../assets/logos/Microsoft-365.svg"
+import github from "../../assets/logos/github.svg"
+import elementor from "../../assets/logos/Elementor.svg"
+import avada from "../../assets/logos/avada-g.svg"
 
 const Logos = ({title, responsive, centered }) => {
   return (

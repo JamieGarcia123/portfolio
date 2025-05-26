@@ -112,7 +112,7 @@
 }
 
 #aws {
-    background-image: url('../../assests/images/AWScloudpractitioner.webp');
+    background-image: url('../../assets/images/AWScloudpractitioner.webp');
     height: 300px;
     width: 100%;
     background-size: 100% 100%;
@@ -125,7 +125,7 @@
 }
 
 #projectPlus {
-    background-image: url('../../assests/images/project+.webp');
+    background-image: url('../../assets/images/project+.webp');
     height: 300px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@
 }
 
 #itilFour{
-    background-image: url('../../assests/images/itil4.webp');
+    background-image: url('../../assets/images/itil4.webp');
     height: 300px;    
     background-size: contain;
     background-repeat: no-repeat;

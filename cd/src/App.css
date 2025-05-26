@@ -5,13 +5,13 @@
 @font-face {
   font-family: slabo;
   font-display: swap;
-  src: url('./assests/fonts/slabo.woff2') format('woff2');
+  src: url('./assets/fonts/slabo.woff2') format('woff2');
   }
 
   @font-face {
     font-family: Noto;
     font-display: swap;
-    src: url('./assests/fonts/noto.ttf') format('woff2');
+    src: url('./assets/fonts/noto.ttf') format('woff2');
   }
 
 :root{
@@ -202,6 +202,6 @@ p {
 
 
  /* #homeHero{
-  background-image: url("./assests/images/cooltechbg.webp");
+  background-image: url("./assets/images/cooltechbg.webp");
   background-size: cover;
  } */
