@@ -56,7 +56,7 @@
 .brdrlft{
     border-left: 1px solid red;
     position: absolute;
-    top: 0px;
+    top: 10px;
     left: 45px;
 }
 
