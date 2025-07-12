@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8eb218e4.css",
-    "main.js": "/static/js/main.2c668c23.js",
+    "main.js": "/static/js/main.29820a1e.js",
     "static/js/453.99da484d.chunk.js": "/static/js/453.99da484d.chunk.js",
     "static/media/home-video-clip.mp4": "/static/media/home-video-clip.ceb4ba5f4e46496bd44e.mp4",
     "static/media/css-code.webp": "/static/media/css-code.dd2de3de69f429383e8a.webp",
@@ -10,9 +10,9 @@
     "static/media/codeprojects.webp": "/static/media/codeprojects.10948b3b8a2b3d01c570.webp",
     "static/media/project+.webp": "/static/media/project+.ada48947918676d6fd71.webp",
     "static/media/cooltechbg.webp": "/static/media/cooltechbg.7493627410f200f1d396.webp",
+    "static/media/Jamie_Garcia_Resume.pdf": "/static/media/Jamie_Garcia_Resume.1ddb1fa5f42877982bd9.pdf",
     "static/media/itil4.webp": "/static/media/itil4.21b79d22ed4a237254f6.webp",
     "static/media/AWScloudpractitioner.webp": "/static/media/AWScloudpractitioner.f1eeb2692e2e494030f8.webp",
-    "static/media/Resume.pdf": "/static/media/Resume.f3e384389af38703e093.pdf",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/slabo.woff2": "/static/media/slabo.a37d452bcc839a5d3ec9.woff2",
@@ -30,11 +30,11 @@
     "static/media/Elementor.svg": "/static/media/Elementor.18fadb4ed86d38d992d1d8d8a9eee3f4.svg",
     "static/media/html-1.svg": "/static/media/html-1.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "main.8eb218e4.css.map": "/static/css/main.8eb218e4.css.map",
-    "main.2c668c23.js.map": "/static/js/main.2c668c23.js.map",
+    "main.29820a1e.js.map": "/static/js/main.29820a1e.js.map",
     "453.99da484d.chunk.js.map": "/static/js/453.99da484d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8eb218e4.css",
-    "static/js/main.2c668c23.js"
+    "static/js/main.29820a1e.js"
   ]
 }
