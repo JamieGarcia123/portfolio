@@ -4,7 +4,7 @@ import "./work-experience.css"
 import { joblist } from "../../api/workhistory";
 import Logos from "../../components/logos/logos.js";
 import { Helmet } from "react-helmet";
-import resume from "../../assets/images/Resume.pdf"
+import resume from "../../assets/images/Jamie_Garcia_Resume.pdf"
 
 const responsive = {
     desktop: {
