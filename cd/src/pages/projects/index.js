@@ -25,7 +25,23 @@ const Projects = () => {
 </p> <h2 className="col1">Websites</h2>
           
           <div className="row">
-            <div className="col2">
+            <div className="col3">
+              <p><a href="https://tourmaline-florentine-a1765f.netlify.app/" target="_blank">Holistic Service Proof Of Concept</a></p>
+                <div> 
+                  <p>Site using newest React/Vite with Supabase Backend!</p>
+                  <ul>Skills portrayed in project:
+                    <li>HTML</li>
+                    <li>Tailwind CSS</li>
+                    <li>React</li>
+                    <li>React Router</li>
+                    <li>Unit Testing</li>
+                    <li>Netlify Pages hosting</li>
+                    <li>Supabase Backend</li>
+                    <li>CRUD Database Operations</li>
+                  </ul>
+                </div>
+            </div>
+            <div className="col3">
               <p>JamieGarcia.dev</p>
                 <div> 
                   <p>Site is used to market myself</p>
@@ -41,7 +57,7 @@ const Projects = () => {
                   </ul>
                 </div>
             </div>
-            <div className="col2">
+            <div className="col3">
               <p><a href="https://cubscoutspack233.org/" target="_blank">Cub Scouts Pack 233 static site</a></p>
                 <div> 
                   <p>Site is used to market a local Cub Scout pack for parents/guardians of children 5-11 or K-5th Grade.</p>
@@ -56,6 +72,8 @@ const Projects = () => {
                   </ul>
                 </div>
             </div>
+            </div>
+            <div className="row">
             <div className="col2">
               <h3>Other sites</h3>
                 <div> 
@@ -65,7 +83,9 @@ const Projects = () => {
                     <li><a traget="_blank" href="https://mightydeposits.com/find-banks#/find?cause=all&page=1">Mighty Deposits</a></li>
                   </ul>
                 </div>
-                <div> 
+           
+            </div>
+                 <div className="col2"> 
                   <h3>Word Press Sites</h3>
                   <ul>
                     <li><a target="_blank" href="https://xpresswellnessurgentcare.com/">Xpress Wellness</a></li>
@@ -76,7 +96,7 @@ const Projects = () => {
                     <li><a target="_blank" href="https://smokenmemories.com/">Smoke & Memories</a></li>
                   </ul>
                 </div>
-            </div>
+            
           </div> 
         </section>  
         <aside className="container row" style={{marginBottom: "10px"}}>
