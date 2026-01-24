@@ -58,17 +58,18 @@ const Projects = () => {
                 </div>
             </div>
             <div className="col3">
-              <p><a href="https://cubscoutspack233.org/" target="_blank">Cub Scouts Pack 233 static site</a></p>
+              <p><a href="https://bare-recipe.com/" title="Visit www.bare-recipe.com" target="_blank">Bare-Recipe a recipe search site</a></p>
                 <div> 
-                  <p>Site is used to market a local Cub Scout pack for parents/guardians of children 5-11 or K-5th Grade.</p>
+                  <p>Founder of site.</p>
+                  <p>No frills no google ads everywhere recipe finder search site.</p>
                   <ul>Skills portrayed in project:
                     <li>HTML</li>
-                    <li>SEO</li>
+                    <li>React with Next.js  dynamic routing</li>
+                    <li>SanityIo CMS</li>
+                    <li>SEO with Next.js</li>
                     <li>CSS and Mobile Responsiveness</li>
-                    <li>Github Pages hosting</li>
+                    <li>Netlify Hosting</li>
                     <li>Cloudflare SSL</li>
-                    <li>Instagram embed</li>
-                    <li>External and internal links</li>
                   </ul>
                 </div>
             </div>
@@ -88,12 +89,12 @@ const Projects = () => {
                  <div className="col2"> 
                   <h3>Word Press Sites</h3>
                   <ul>
-                    <li><a target="_blank" href="https://xpresswellnessurgentcare.com/">Xpress Wellness</a></li>
-                    <li><a target="_blank" href="https://integrityuc.com/">Integrity</a></li>
-                    <li><a targe="_blank" href="https://wixonbathworks.org/">Wixon Bath</a></li>
-                    <li><a target="_blank" href="https://gavii.ai/">Gavii</a></li>
-                    <li><a target="_blank" href="https://carolenneking.com/">Carol Enneking</a></li>
-                    <li><a target="_blank" href="https://smokenmemories.com/">Smoke & Memories</a></li>
+                <li><a target="_blank" title="Visit Clearview Safety Glass" href="https://clearviewsafetyglass.com/">Clearview Safety Glass</a></li>
+                <li><a target="_blank" title="Visit H2O Survial Swim School" href="https://h2osurvivalswimschool.com/">H2O Survival Swim School</a></li>
+                    <li><a target="_blank" href="https://wixonbathworks.org/" title="Visit Wixon Bath">Wixon Bath</a></li>
+                    <li><a target="_blank" title="Visit Gavii" href="https://gavii.ai/">Gavii</a></li>
+                    <li><a target="_blank" title="Visit Carol Ennekeing" href="https://carolenneking.com/">Carol Enneking</a></li>
+                    <li><a target="_blank"title="Visit Cylex Signs" href="https://cylexsigns.com/">Cylex Signs</a></li>
                   </ul>
                 </div>
             
